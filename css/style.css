@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:17px;
+}
+
+header{
+background-image:url(../image/dawn.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+background-blend-mode:multiply;
+background-color: #00000094;
+}
+
+.nav-main{
+    width:90%;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0px 120px 0px 120px;
+    margin: -20px 0px 0px 20px;
+}    
+
+nav h1{
+color:white;
+font-size:20px;
+margin: 32px 0px 12px 8px;
+}
+
+
+nav h1 span{
+  font-weight: 100; 
+}
+
+nav ul{
+margin:0;
+padding:0;
+display: flex;
+list-style:none;
+}
+
+nav ul li{
+margin: 0 0 0 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform:capitalize;
+    color:black;
+    font-weight:600;
+    color:white;
+    
+}
+
+.banner{
+padding: 180px 0px 10px 400px;
+  text-align: center;
+  color:white;
+  
+}
+
+.banner h2{
+    font-size: 28px;
+    font-style: italic;
+}
+
+.banner span{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.banner h3{
+    font-size: 45px;
+}
+
+.banner button{
+background-color:rgb(190, 14, 14);
+color:white;
+padding: 15px 30px;
+font-size: 15px;
+letter-spacing: 2px;
+border: 1px solid rgb(190, 14, 14);
+ border-radius: 35px;
+ transition:all 0.3s linear;
+}
+
+.banner button:hover{
+    background-color:rgba(190, 14, 14, 0);
+    letter-spacing: 3px;
+    
+}
